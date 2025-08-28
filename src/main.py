@@ -12,7 +12,6 @@ model8 = AutoModel.from_pretrained("meta-llama/Llama-3.2-1B")
 model9 = AutoModel.from_pretrained("facebook/convnext-base-224-22k-1k")
 model10 = AutoModel.from_pretrained("sentence-transformers/all-MiniLM-L12-v2")
 model11 = AutoModel.from_pretrained("hf-internal-testing/tiny-random-LlamaForCausalLM")
-model12 = AutoModel.from_pretrained("openai/gpt-oss-20b")
 
 
 print("Models loaded successfully!")
