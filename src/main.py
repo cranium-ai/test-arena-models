@@ -12,6 +12,8 @@ model8 = AutoModel.from_pretrained("meta-llama/Llama-3.2-1B")
 model10 = AutoModel.from_pretrained("sentence-transformers/all-MiniLM-L12-v2")
 model11 = AutoModel.from_pretrained("hf-internal-testing/tiny-random-LlamaForCausalLM")
 model12 = AutoModel.from_pretrained("openai/gpt-oss-20b")
+model14 = AutoModel.from_pretrained("microsoft/phi-4")
+model15 = AutoModel.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Llama-8B")
 
 print("Models loaded successfully!")
 
