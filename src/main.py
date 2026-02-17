@@ -14,6 +14,7 @@ model11 = AutoModel.from_pretrained("hf-internal-testing/tiny-random-LlamaForCau
 model12 = AutoModel.from_pretrained("openai/gpt-oss-20b")
 model14 = AutoModel.from_pretrained("microsoft/phi-4")
 model15 = AutoModel.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Llama-8B")
+model16 = AutoModel.from_pretrained("microsoft/Phi-4-reasoning-plus")
 
 print("Models loaded successfully!")
 
